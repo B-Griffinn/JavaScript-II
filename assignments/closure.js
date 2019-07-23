@@ -1,5 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function myFunction() {
+  let str = "Steve is the man, man!!"
+  function closure(){
+    let newStr = 'I love JS!'
+    alert(`${str} ${newStr}`)
+  }
+  
+}
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
